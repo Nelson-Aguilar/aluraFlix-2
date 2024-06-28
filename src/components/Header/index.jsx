@@ -4,23 +4,6 @@ import logo from "../../assets/img/logo_aluraflix.png";
 import { AiOutlineVideoCameraAdd } from "react-icons/ai";
 
 const ContainerHeader = styled.div`
-  width: 91%;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 4rem;
-  border-bottom: 1px solid #00daff78;
-  background: #0000007d;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  position: fixed;
-  z-index: 10;
-  backdrop-filter: blur(15px);
-  @media screen and (min-width: 0) and (max-width: 767px) {
-    display: block;
-  }
-`;
-/*const ContainerHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +16,7 @@ const ContainerHeader = styled.div`
   @media screen and (min-width: 0) and (max-width: 424px) {
     padding: 1.5rem 0.8rem;
   }
-`; */
+`;
 
 const Logo = styled.img`
   width: 200px;
